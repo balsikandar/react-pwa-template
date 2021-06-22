@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This Repo can be used as a template for React JS Apps.
+
 ## Available Scripts
 
 In the project directory, you can run:
