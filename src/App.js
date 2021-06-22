@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+/**
+ * @name app.js
+ * @fileoverview Exports the frontend application as <App/> Component,
+ * Initialises Application Routes using react-router and React components from /views.
+ * Renders global state providers.
+ */
 
-function App() {
+import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from 'routes';
+import { ApplicationState } from 'containers/application/state';
+import 'utils/localization';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ApplicationState.Provider>
+      <Router>
+        <Routes />
+      </Router>
+    </ApplicationState.Provider>
   );
-}
+};
 
 export default App;
