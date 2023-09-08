@@ -32,11 +32,12 @@ Make sure you have the following software installed on your system:
 
    ```
    git clone https://github.combalsikandar/react-pwa-template.git
+   ```
 
 2. Navigate to the project directory:
-```
-cd react-pwa-template
-```
+   ```
+   cd react-pwa-template
+   ```
 
 3. Install the project dependencies:
    ```
@@ -45,22 +46,21 @@ cd react-pwa-template
 
 ### Development
 Start the development server
-```
-npm start
-or
-yarn start
-```
+   ```
+   npm start
+   or
+   yarn start
+   ```
 This will launch the development server at http://localhost:3000. Any changes you make to the code will automatically trigger hot module replacement.
 
 ### Building for Production
 To create a production-ready build of your app, run the following command:
 
-```
-Copy code
-npm run build
-# or
-yarn build
-```
+   ```
+   npm run build
+   or
+   yarn build
+   ```
 This will generate optimized production files in the build directory.
 
 ### Deploying
