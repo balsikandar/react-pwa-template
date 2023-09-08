@@ -2,7 +2,7 @@
 
 This is a template for building a Progressive Web App (PWA) using React. It provides a starting point for creating a web application that can be installed on a user's device and offers offline capabilities.
 
-![react-pwa-template](https://socialify.git.ci/balsikandar/react-pwa-template/image?language=1&owner=1&name=1&stargazers=1&theme=Light)
+![react-pwa-template](https://socialify.git.ci/balsikandar/react-pwa-template/image?language=1&owner=1&name=1&stargazers=2&theme=Light)
 
 ## Features
 
